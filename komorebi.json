@@ -1,0 +1,105 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.33/schema.json",
+  "app_specific_configuration_path": "$Env:USERPROFILE/applications.json",
+  "animation": {
+    "enabled": true,
+    "duration": 260,
+    "fps": 180,
+    "style": "EaseOutSine"
+  },
+  "border": true,
+  "border_colours": {
+    "monocle": "#55aaff",
+    "unfocused": "#00557f",
+    "single": "#00aaff",
+    "stack": "#0055ff"
+  },
+  "border_implementation": "Komorebi",
+  "border_offset": -1,
+  "border_style": "Rounded",
+  "border_width": 3,
+  "border_z_order": "TopMost",
+  "cross_monitor_move_behaviour": "Insert",
+  "default_container_padding": 20,
+  "default_workspace_padding": 10,
+  "float_override": false,
+  "global_work_area_offset": {
+    "right": 0,
+    "left": 0,
+    "bottom": 0,
+    "top": 0
+  },
+  "mouse_follows_focus": false,
+  "stackbar": {
+    "tabs": {
+      "font_size": 0,
+      "focused_text": "#ffffff",
+      "width": 0,
+      "unfocused_text": "#ffffff",
+      "font_family": "Segoe UI",
+      "background": "#ffffff"
+    },
+    "label": "Process",
+    "mode": "Never",
+    "height": 0
+  },
+  "transparency": true,
+  "transparency_alpha": 240,
+  "unmanaged_window_operation_behaviour": "Op",
+  "window_container_behaviour": "Create",
+  "window_hiding_behaviour": "Cloak",
+  "monitors": [
+    {
+      "workspaces": [
+        {
+          "name": "1",
+          "layout": "BSP"
+        },
+        {
+          "name": "2",
+          "layout": "VerticalStack"
+        },
+        {
+          "name": "3",
+          "layout": "VerticalStack"
+        }
+      ]
+    },
+    {
+      "workspaces": [
+        {
+          "name": "1",
+          "layout": "BSP"
+        },
+        {
+          "name": "2",
+          "layout": "VerticalStack"
+        }
+      ]
+    }
+  ],
+  "manage_rules": [
+    {
+      "kind": "Title",
+      "matching_strategy": "Contains",
+      "id": "Microsoft Visual Studio"
+    },
+    {
+      "kind": "Title",
+      "matching_strategy": "Contains",
+      "id": "Notesnook"
+    }
+  ],
+  "floating_applications": [
+    {
+      "kind": "Title",
+      "matching_strategy": "Contains",
+      "id": "Bloco de notas"
+    },
+    {
+      "kind": "Title",
+      "matching_strategy": "Contains",
+      "id": "VirtualBox"
+    }
+  ]
+}
