@@ -99,6 +99,11 @@
     {
       "kind": "Title",
       "matching_strategy": "Contains",
+      "id": "Notepad"
+    },
+    {
+      "kind": "Title",
+      "matching_strategy": "Contains",
       "id": "VirtualBox"
     }
   ]

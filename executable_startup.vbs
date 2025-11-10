@@ -10,6 +10,10 @@ logPath = shell.ExpandEnvironmentStrings("%USERPROFILE%\.startup.log")
 Set logFile = fso.OpenTextFile(logPath, 2, True)
 
 
+' =====================================
+'  Logging functions
+' =====================================
+
 Sub LogMessage(msg)
     logFile.WriteLine Now & " | " & msg
 End Sub
@@ -18,6 +22,9 @@ Sub LogError(msg)
     logFile.WriteLine Now & " | [ERROR]" & msg
 End Sub
 
+' =====================================
+'  Execution functions
+' =====================================
 
 Function RunAndLog(cmd)
     LogMessage "Running: " & cmd
@@ -37,14 +44,17 @@ Function RunAndLog(cmd)
     RunAndLog = execObj.ExitCode
 End Function
 
+' =====================================
+'  Main execution
+' =====================================
 
 LogMessage "===== Starting System Setup ====="
 
 RunAndLog "komorebic start --whkd"
-RunAndLog "windhawk -tray-only"
 RunAndLog "scoop cache rm *"
 RunAndLog "scoop cleanup *"
 RunAndLog "scoop update *"
+RunAndLog "windhawk -tray-only"
 
 LogMessage "===== Ending System Setup ====="
 
