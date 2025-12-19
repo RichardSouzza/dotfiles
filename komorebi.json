@@ -9,42 +9,42 @@
   },
   "border": true,
   "border_colours": {
-    "monocle": "#55aaff",
-    "unfocused": "#00557f",
-    "single": "#00aaff",
-    "stack": "#0055ff"
+    "stack": "#0055ff",
+    "single": "#55aaff",
+    "unfocused": "#24273a",
+    "monocle": "#55aaff"
   },
   "border_implementation": "Komorebi",
   "border_offset": -1,
   "border_style": "Rounded",
-  "border_width": 3,
+  "border_width": 2,
   "border_z_order": "TopMost",
   "cross_monitor_move_behaviour": "Insert",
   "default_container_padding": 20,
   "default_workspace_padding": 10,
   "float_override": false,
   "global_work_area_offset": {
-    "right": 0,
-    "left": 0,
+    "top": 0,
     "bottom": 0,
-    "top": 0
+    "right": 0,
+    "left": 0
   },
   "mouse_follows_focus": false,
   "stackbar": {
     "tabs": {
-      "font_size": 0,
-      "focused_text": "#ffffff",
+      "background": "#ffffff",
       "width": 0,
-      "unfocused_text": "#ffffff",
+      "font_size": 0,
       "font_family": "Segoe UI",
-      "background": "#ffffff"
+      "unfocused_text": "#ffffff",
+      "focused_text": "#ffffff"
     },
-    "label": "Process",
+    "height": 0,
     "mode": "Never",
-    "height": 0
+    "label": "Process"
   },
-  "transparency": true,
-  "transparency_alpha": 240,
+  "transparency": false,
+  "transparency_alpha": 255,
   "unmanaged_window_operation_behaviour": "Op",
   "window_container_behaviour": "Create",
   "window_hiding_behaviour": "Cloak",

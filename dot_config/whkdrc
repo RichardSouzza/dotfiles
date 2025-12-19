@@ -81,6 +81,7 @@ alt + 2                 : wt -p "NixOS"
 alt + 3                 : rider
 alt + 4                 : dbeaver
 alt + 5                 : start "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\devenv.exe"
+alt + 6                 : start "C:\Program Files\TIBCO\Jaspersoft Studio-6.20.0\Jaspersoft Studio.exe"
 alt + 8                 : start "C:\Program Files\Docker\Docker\Docker Desktop.exe"
 alt + shift + 1         : start "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --profile-directory=Default
 alt + shift + 5         : start "C:\Program Files\TIBCO\Jaspersoft Studio-6.20.0\Jaspersoft Studio.exe"
